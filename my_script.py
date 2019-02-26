@@ -16,17 +16,17 @@
 import time
 import logging.config
 import cv2
-import pafy
 import tensorflow as tf
 
 from models import yolo
 from log_config import LOGGING
-from utils.general import format_predictions, find_class_by_name, is_url
+from utils.general import format_predictions, find_class_by_name
 
 logging.config.dictConfig(LOGGING)
 
 logger = logging.getLogger('detector')
 FLAGS = tf.flags.FLAGS
+ip_camera_url = "http://192.168.1.33/mjpg/video.mjpg"
 
 
 def evaluate(_):
@@ -34,10 +34,6 @@ def evaluate(_):
     cv2.namedWindow(win_name)
 
     video = FLAGS.video
-
-    # if is_url(video):
-    #     videoPafy = pafy.new(video)
-    #     video = videoPafy.getbest(preftype="mp4").url
 
     cam = cv2.VideoCapture(video)
     if not cam.isOpened():
@@ -120,7 +116,7 @@ def evaluate(_):
 
 
 if __name__ == '__main__':
-    tf.flags.DEFINE_string('video', "http://192.168.1.33/mjpg/video.mjpg", 'Path to the video file.')
+    tf.flags.DEFINE_string('video', ip_camera_url, 'URL to video')
     tf.flags.DEFINE_string('model_name', 'Yolo2Model', 'Model name to use.')
 
     tf.app.run(main=evaluate)

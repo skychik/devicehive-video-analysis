@@ -1,0 +1,687 @@
+MacBook-Pro-5:devicehive-video-analysis macbook$ python3 my_script.py
+2019-02-26 14:40:37.583333: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+[INFO] 2019-02-26 14:40:51,530: Frame: 0, FPS: 0.05
+[INFO] 2019-02-26 14:40:51,537: Predictions: chair: 0.68, person: 0.46, backpack: 0.39
+[INFO] 2019-02-26 14:40:52,484: Frame: 1, FPS: 0.15
+[INFO] 2019-02-26 14:40:52,486: Predictions: person: 0.57, chair: 0.52, backpack: 0.41
+[INFO] 2019-02-26 14:40:53,180: Frame: 2, FPS: 0.28
+[INFO] 2019-02-26 14:40:53,182: Predictions: person: 0.64, chair: 0.57, backpack: 0.39
+[INFO] 2019-02-26 14:40:53,914: Frame: 3, FPS: 0.39
+[INFO] 2019-02-26 14:40:53,916: Predictions: chair: 0.59, person: 0.58, chair: 0.30
+[INFO] 2019-02-26 14:40:54,606: Frame: 4, FPS: 0.49
+[INFO] 2019-02-26 14:40:54,608: Predictions: person: 0.66, chair: 0.64, backpack: 0.31
+[INFO] 2019-02-26 14:40:55,382: Frame: 5, FPS: 0.57
+[INFO] 2019-02-26 14:40:55,384: Predictions: chair: 0.59, person: 0.56, handbag: 0.31
+[INFO] 2019-02-26 14:40:56,136: Frame: 6, FPS: 0.65
+[INFO] 2019-02-26 14:40:56,138: Predictions: person: 0.55, chair: 0.49
+[INFO] 2019-02-26 14:40:56,903: Frame: 7, FPS: 0.71
+[INFO] 2019-02-26 14:40:56,905: Predictions: chair: 0.57, person: 0.55, backpack: 0.32
+[INFO] 2019-02-26 14:40:57,589: Frame: 8, FPS: 0.79
+[INFO] 2019-02-26 14:40:57,591: Predictions: person: 0.56, chair: 0.52, backpack: 0.30
+[INFO] 2019-02-26 14:40:58,391: Frame: 9, FPS: 0.83
+[INFO] 2019-02-26 14:40:58,393: Predictions: chair: 0.56, person: 0.54, handbag: 0.42
+[INFO] 2019-02-26 14:40:59,074: Frame: 10, FPS: 0.90
+[INFO] 2019-02-26 14:40:59,076: Predictions: chair: 0.54, person: 0.50, backpack: 0.39
+[INFO] 2019-02-26 14:40:59,750: Frame: 11, FPS: 0.95
+[INFO] 2019-02-26 14:40:59,752: Predictions: chair: 0.51, person: 0.49, backpack: 0.37
+[INFO] 2019-02-26 14:41:00,422: Frame: 12, FPS: 1.01
+[INFO] 2019-02-26 14:41:00,424: Predictions: person: 0.58, chair: 0.50
+[INFO] 2019-02-26 14:41:01,093: Frame: 13, FPS: 1.06
+[INFO] 2019-02-26 14:41:01,094: Predictions: person: 0.57, chair: 0.50
+[INFO] 2019-02-26 14:41:01,793: Frame: 14, FPS: 1.09
+[INFO] 2019-02-26 14:41:01,795: Predictions: chair: 0.77
+[INFO] 2019-02-26 14:41:02,486: Frame: 15, FPS: 1.13
+[INFO] 2019-02-26 14:41:02,487: Predictions: person: 0.33
+[INFO] 2019-02-26 14:41:03,190: Frame: 16, FPS: 1.16
+[INFO] 2019-02-26 14:41:03,192: Predictions: person: 0.82
+[INFO] 2019-02-26 14:41:03,942: Frame: 17, FPS: 1.17
+[INFO] 2019-02-26 14:41:03,944: Predictions: person: 0.85
+[INFO] 2019-02-26 14:41:04,630: Frame: 18, FPS: 1.20
+[INFO] 2019-02-26 14:41:04,632: Predictions: person: 0.73, person: 0.47
+[INFO] 2019-02-26 14:41:05,312: Frame: 19, FPS: 1.23
+[INFO] 2019-02-26 14:41:05,314: Predictions: chair: 0.73, person: 0.69, backpack: 0.47, chair: 0.46
+[INFO] 2019-02-26 14:41:06,050: Frame: 20, FPS: 1.24
+[INFO] 2019-02-26 14:41:06,053: Predictions: backpack: 0.64, book: 0.32, chair: 0.31
+[INFO] 2019-02-26 14:41:06,788: Frame: 21, FPS: 1.25
+[INFO] 2019-02-26 14:41:06,790: Predictions: chair: 0.69, backpack: 0.55
+[INFO] 2019-02-26 14:41:07,598: Frame: 22, FPS: 1.25
+[INFO] 2019-02-26 14:41:07,600: Predictions: backpack: 0.61, diningtable: 0.45, person: 0.41, chair: 0.34
+[INFO] 2019-02-26 14:41:08,311: Frame: 23, FPS: 1.27
+[INFO] 2019-02-26 14:41:08,313: Predictions: backpack: 0.54, chair: 0.39, person: 0.33
+[INFO] 2019-02-26 14:41:09,015: Frame: 24, FPS: 1.28
+[INFO] 2019-02-26 14:41:09,018: Predictions: backpack: 0.58, chair: 0.45, person: 0.35, book: 0.30
+[INFO] 2019-02-26 14:41:09,745: Frame: 25, FPS: 1.29
+[INFO] 2019-02-26 14:41:09,747: Predictions: backpack: 0.53, person: 0.39, chair: 0.36
+[INFO] 2019-02-26 14:41:10,484: Frame: 26, FPS: 1.30
+[INFO] 2019-02-26 14:41:10,487: Predictions: person: 0.52, backpack: 0.48, chair: 0.40, tvmonitor: 0.32
+[INFO] 2019-02-26 14:41:11,208: Frame: 27, FPS: 1.31
+[INFO] 2019-02-26 14:41:11,209: Predictions: backpack: 0.55, person: 0.44, tvmonitor: 0.33
+[INFO] 2019-02-26 14:41:11,929: Frame: 28, FPS: 1.31
+[INFO] 2019-02-26 14:41:11,932: Predictions: person: 0.60, backpack: 0.47
+[INFO] 2019-02-26 14:41:12,651: Frame: 29, FPS: 1.32
+[INFO] 2019-02-26 14:41:12,653: Predictions: tvmonitor: 0.74, person: 0.71, backpack: 0.51
+[INFO] 2019-02-26 14:41:13,384: Frame: 30, FPS: 1.32
+[INFO] 2019-02-26 14:41:13,386: Predictions: person: 0.81, laptop: 0.64, handbag: 0.43
+[INFO] 2019-02-26 14:41:14,119: Frame: 31, FPS: 1.33
+[INFO] 2019-02-26 14:41:14,121: Predictions: umbrella: 0.41, person: 0.38
+[INFO] 2019-02-26 14:41:14,855: Frame: 32, FPS: 1.33
+[INFO] 2019-02-26 14:41:14,857: Predictions: tie: 0.41
+[INFO] 2019-02-26 14:41:15,624: Frame: 33, FPS: 1.33
+[INFO] 2019-02-26 14:41:15,626: Predictions: person: 0.56, chair: 0.42, tie: 0.35
+[INFO] 2019-02-26 14:41:16,357: Frame: 34, FPS: 1.33
+[INFO] 2019-02-26 14:41:16,359: Predictions: chair: 0.78, person: 0.75
+[INFO] 2019-02-26 14:41:17,094: Frame: 35, FPS: 1.33
+[INFO] 2019-02-26 14:41:17,096: Predictions: chair: 0.82, person: 0.82
+[INFO] 2019-02-26 14:41:17,874: Frame: 36, FPS: 1.33
+[INFO] 2019-02-26 14:41:17,876: Predictions: person: 0.68, chair: 0.42
+[INFO] 2019-02-26 14:41:18,688: Frame: 37, FPS: 1.32
+[INFO] 2019-02-26 14:41:18,691: Predictions: person: 0.74, chair: 0.59
+[INFO] 2019-02-26 14:41:19,444: Frame: 38, FPS: 1.32
+[INFO] 2019-02-26 14:41:19,447: Predictions: person: 0.78, chair: 0.52, chair: 0.40
+[INFO] 2019-02-26 14:41:20,192: Frame: 39, FPS: 1.32
+[INFO] 2019-02-26 14:41:20,194: Predictions: person: 0.75, chair: 0.64, chair: 0.54
+[INFO] 2019-02-26 14:41:20,943: Frame: 40, FPS: 1.32
+[INFO] 2019-02-26 14:41:20,945: Predictions: person: 0.77, chair: 0.54, chair: 0.43
+[INFO] 2019-02-26 14:41:21,685: Frame: 41, FPS: 1.32
+[INFO] 2019-02-26 14:41:21,687: Predictions: person: 0.69, chair: 0.57, chair: 0.38
+[INFO] 2019-02-26 14:41:22,426: Frame: 42, FPS: 1.33
+[INFO] 2019-02-26 14:41:22,428: Predictions: person: 0.74, chair: 0.61, chair: 0.40
+[INFO] 2019-02-26 14:41:23,206: Frame: 43, FPS: 1.32
+[INFO] 2019-02-26 14:41:23,208: Predictions: person: 0.75, chair: 0.64, chair: 0.48
+[INFO] 2019-02-26 14:41:23,977: Frame: 44, FPS: 1.32
+[INFO] 2019-02-26 14:41:23,980: Predictions: person: 0.68, chair: 0.66, chair: 0.39
+[INFO] 2019-02-26 14:41:24,757: Frame: 45, FPS: 1.32
+[INFO] 2019-02-26 14:41:24,759: Predictions: person: 0.53, chair: 0.34
+[INFO] 2019-02-26 14:41:25,495: Frame: 46, FPS: 1.32
+[INFO] 2019-02-26 14:41:25,497: Predictions: person: 0.46
+[INFO] 2019-02-26 14:41:26,241: Frame: 47, FPS: 1.32
+[INFO] 2019-02-26 14:41:26,243: Predictions: person: 0.43
+[INFO] 2019-02-26 14:41:26,988: Frame: 48, FPS: 1.32
+[INFO] 2019-02-26 14:41:26,990: Predictions: person: 0.49
+[INFO] 2019-02-26 14:41:27,744: Frame: 49, FPS: 1.32
+[INFO] 2019-02-26 14:41:27,746: Predictions: person: 0.44, chair: 0.40, handbag: 0.30
+[INFO] 2019-02-26 14:41:28,484: Frame: 50, FPS: 1.33
+[INFO] 2019-02-26 14:41:28,486: Predictions: person: 0.39, chair: 0.35
+[INFO] 2019-02-26 14:41:29,222: Frame: 51, FPS: 1.33
+[INFO] 2019-02-26 14:41:29,224: Predictions: person: 0.47
+[INFO] 2019-02-26 14:41:29,970: Frame: 52, FPS: 1.33
+[INFO] 2019-02-26 14:41:29,973: Predictions: chair: 0.48, person: 0.45, handbag: 0.31
+[INFO] 2019-02-26 14:41:30,751: Frame: 53, FPS: 1.33
+[INFO] 2019-02-26 14:41:30,753: Predictions: person: 0.45, chair: 0.39
+[INFO] 2019-02-26 14:41:31,486: Frame: 54, FPS: 1.33
+[INFO] 2019-02-26 14:41:31,488: Predictions: person: 0.47, chair: 0.35
+[INFO] 2019-02-26 14:41:32,234: Frame: 55, FPS: 1.33
+[INFO] 2019-02-26 14:41:32,236: Predictions: chair: 0.47, person: 0.41, handbag: 0.33
+[INFO] 2019-02-26 14:41:32,986: Frame: 56, FPS: 1.33
+[INFO] 2019-02-26 14:41:32,988: Predictions: person: 0.43, handbag: 0.33
+[INFO] 2019-02-26 14:41:33,740: Frame: 57, FPS: 1.33
+[INFO] 2019-02-26 14:41:33,741: Predictions: person: 0.48, handbag: 0.46
+[INFO] 2019-02-26 14:41:34,496: Frame: 58, FPS: 1.33
+[INFO] 2019-02-26 14:41:34,499: Predictions: person: 0.41, handbag: 0.33, chair: 0.32
+[INFO] 2019-02-26 14:41:35,243: Frame: 59, FPS: 1.33
+[INFO] 2019-02-26 14:41:35,245: Predictions: chair: 0.42, person: 0.39
+[INFO] 2019-02-26 14:41:35,988: Frame: 60, FPS: 1.33
+[INFO] 2019-02-26 14:41:35,990: Predictions: chair: 0.35, person: 0.35
+[INFO] 2019-02-26 14:41:36,718: Frame: 61, FPS: 1.33
+[INFO] 2019-02-26 14:41:36,720: Predictions: chair: 0.42, person: 0.38
+[INFO] 2019-02-26 14:41:37,470: Frame: 62, FPS: 1.33
+[INFO] 2019-02-26 14:41:37,472: Predictions: person: 0.37, chair: 0.35
+[INFO] 2019-02-26 14:41:38,226: Frame: 63, FPS: 1.33
+[INFO] 2019-02-26 14:41:38,227: Predictions: person: 0.46, chair: 0.39
+[INFO] 2019-02-26 14:41:38,980: Frame: 64, FPS: 1.33
+[INFO] 2019-02-26 14:41:38,982: Predictions: chair: 0.53, person: 0.46, chair: 0.38
+[INFO] 2019-02-26 14:41:39,725: Frame: 65, FPS: 1.33
+[INFO] 2019-02-26 14:41:39,727: Predictions: person: 0.39, chair: 0.34
+[INFO] 2019-02-26 14:41:40,469: Frame: 66, FPS: 1.33
+[INFO] 2019-02-26 14:41:40,471: Predictions: chair: 0.50, person: 0.49
+[INFO] 2019-02-26 14:41:41,203: Frame: 67, FPS: 1.34
+[INFO] 2019-02-26 14:41:41,205: Predictions: person: 0.53, handbag: 0.31
+[INFO] 2019-02-26 14:41:41,952: Frame: 68, FPS: 1.34
+[INFO] 2019-02-26 14:41:41,954: Predictions: chair: 0.57, person: 0.46
+[INFO] 2019-02-26 14:41:42,707: Frame: 69, FPS: 1.34
+[INFO] 2019-02-26 14:41:42,710: Predictions: person: 0.51, chair: 0.35
+[INFO] 2019-02-26 14:41:43,456: Frame: 70, FPS: 1.34
+[INFO] 2019-02-26 14:41:43,458: Predictions: person: 0.43
+[INFO] 2019-02-26 14:41:44,208: Frame: 71, FPS: 1.34
+[INFO] 2019-02-26 14:41:44,210: Predictions: person: 0.61, chair: 0.41
+[INFO] 2019-02-26 14:41:44,949: Frame: 72, FPS: 1.34
+[INFO] 2019-02-26 14:41:44,951: Predictions: person: 0.55, chair: 0.35, handbag: 0.31
+[INFO] 2019-02-26 14:41:45,694: Frame: 73, FPS: 1.34
+[INFO] 2019-02-26 14:41:45,696: Predictions: person: 0.58
+[INFO] 2019-02-26 14:41:46,429: Frame: 74, FPS: 1.34
+[INFO] 2019-02-26 14:41:46,432: Predictions: person: 0.62, chair: 0.50, handbag: 0.48
+[INFO] 2019-02-26 14:41:47,171: Frame: 75, FPS: 1.34
+[INFO] 2019-02-26 14:41:47,172: Predictions: person: 0.67, chair: 0.44
+[INFO] 2019-02-26 14:41:47,932: Frame: 76, FPS: 1.34
+[INFO] 2019-02-26 14:41:48,708: Frame: 77, FPS: 1.33
+[INFO] 2019-02-26 14:41:48,710: Predictions: umbrella: 0.34
+[INFO] 2019-02-26 14:41:49,492: Frame: 78, FPS: 1.33
+[INFO] 2019-02-26 14:41:50,260: Frame: 79, FPS: 1.32
+[INFO] 2019-02-26 14:41:51,037: Frame: 80, FPS: 1.32
+[INFO] 2019-02-26 14:41:51,786: Frame: 81, FPS: 1.32
+[INFO] 2019-02-26 14:41:52,507: Frame: 82, FPS: 1.33
+[INFO] 2019-02-26 14:41:53,238: Frame: 83, FPS: 1.33
+[INFO] 2019-02-26 14:41:53,969: Frame: 84, FPS: 1.34
+[INFO] 2019-02-26 14:41:54,679: Frame: 85, FPS: 1.34
+[INFO] 2019-02-26 14:41:55,451: Frame: 86, FPS: 1.34
+[INFO] 2019-02-26 14:41:56,166: Frame: 87, FPS: 1.34
+[INFO] 2019-02-26 14:41:56,887: Frame: 88, FPS: 1.35
+[INFO] 2019-02-26 14:41:57,588: Frame: 89, FPS: 1.36
+[INFO] 2019-02-26 14:41:57,590: Predictions: person: 0.47
+[INFO] 2019-02-26 14:41:58,304: Frame: 90, FPS: 1.36
+[INFO] 2019-02-26 14:41:58,306: Predictions: person: 0.51, chair: 0.38
+[INFO] 2019-02-26 14:41:59,042: Frame: 91, FPS: 1.36
+[INFO] 2019-02-26 14:41:59,764: Frame: 92, FPS: 1.36
+[INFO] 2019-02-26 14:41:59,767: Predictions: person: 0.65
+[INFO] 2019-02-26 14:42:00,516: Frame: 93, FPS: 1.36
+[INFO] 2019-02-26 14:42:00,519: Predictions: person: 0.60
+[INFO] 2019-02-26 14:42:01,350: Frame: 94, FPS: 1.34
+[INFO] 2019-02-26 14:42:01,353: Predictions: person: 0.63
+[INFO] 2019-02-26 14:42:02,123: Frame: 95, FPS: 1.34
+[INFO] 2019-02-26 14:42:02,126: Predictions: person: 0.55
+[INFO] 2019-02-26 14:42:02,891: Frame: 96, FPS: 1.33
+[INFO] 2019-02-26 14:42:02,894: Predictions: person: 0.63
+[INFO] 2019-02-26 14:42:03,689: Frame: 97, FPS: 1.33
+[INFO] 2019-02-26 14:42:03,691: Predictions: person: 0.54
+[INFO] 2019-02-26 14:42:04,433: Frame: 98, FPS: 1.33
+[INFO] 2019-02-26 14:42:04,436: Predictions: person: 0.54
+[INFO] 2019-02-26 14:42:05,187: Frame: 99, FPS: 1.33
+[INFO] 2019-02-26 14:42:05,189: Predictions: person: 0.60
+[INFO] 2019-02-26 14:42:05,932: Frame: 100, FPS: 1.33
+[INFO] 2019-02-26 14:42:05,934: Predictions: person: 0.50
+[INFO] 2019-02-26 14:42:06,703: Frame: 101, FPS: 1.33
+[INFO] 2019-02-26 14:42:06,705: Predictions: person: 0.62
+[INFO] 2019-02-26 14:42:07,455: Frame: 102, FPS: 1.33
+[INFO] 2019-02-26 14:42:07,457: Predictions: person: 0.74, person: 0.66
+[INFO] 2019-02-26 14:42:08,237: Frame: 103, FPS: 1.32
+[INFO] 2019-02-26 14:42:08,239: Predictions: person: 0.71, person: 0.64, chair: 0.34
+[INFO] 2019-02-26 14:42:09,067: Frame: 104, FPS: 1.31
+[INFO] 2019-02-26 14:42:09,069: Predictions: person: 0.83, person: 0.63, chair: 0.34
+[INFO] 2019-02-26 14:42:09,780: Frame: 105, FPS: 1.32
+[INFO] 2019-02-26 14:42:09,783: Predictions: person: 0.75, person: 0.68, chair: 0.42
+[INFO] 2019-02-26 14:42:10,533: Frame: 106, FPS: 1.32
+[INFO] 2019-02-26 14:42:10,535: Predictions: person: 0.66, person: 0.53
+[INFO] 2019-02-26 14:42:11,280: Frame: 107, FPS: 1.32
+[INFO] 2019-02-26 14:42:11,283: Predictions: person: 0.61, person: 0.59
+[INFO] 2019-02-26 14:42:12,018: Frame: 108, FPS: 1.33
+[INFO] 2019-02-26 14:42:12,021: Predictions: person: 0.37
+[INFO] 2019-02-26 14:42:12,767: Frame: 109, FPS: 1.33
+[INFO] 2019-02-26 14:42:12,769: Predictions: person: 0.74, person: 0.55
+[INFO] 2019-02-26 14:42:13,487: Frame: 110, FPS: 1.33
+[INFO] 2019-02-26 14:42:13,490: Predictions: person: 0.63, person: 0.51
+[INFO] 2019-02-26 14:42:14,197: Frame: 111, FPS: 1.34
+[INFO] 2019-02-26 14:42:14,199: Predictions: person: 0.63, person: 0.55
+[INFO] 2019-02-26 14:42:14,905: Frame: 112, FPS: 1.35
+[INFO] 2019-02-26 14:42:14,907: Predictions: person: 0.70, person: 0.64, chair: 0.38
+[INFO] 2019-02-26 14:42:15,620: Frame: 113, FPS: 1.35
+[INFO] 2019-02-26 14:42:15,623: Predictions: person: 0.54, person: 0.32
+[INFO] 2019-02-26 14:42:16,344: Frame: 114, FPS: 1.36
+[INFO] 2019-02-26 14:42:16,347: Predictions: person: 0.38
+[INFO] 2019-02-26 14:42:17,102: Frame: 115, FPS: 1.35
+[INFO] 2019-02-26 14:42:17,838: Frame: 116, FPS: 1.35
+[INFO] 2019-02-26 14:42:17,840: Predictions: dog: 0.38
+[INFO] 2019-02-26 14:42:18,557: Frame: 117, FPS: 1.36
+[INFO] 2019-02-26 14:42:18,559: Predictions: person: 0.47, person: 0.31
+[INFO] 2019-02-26 14:42:19,290: Frame: 118, FPS: 1.36
+[INFO] 2019-02-26 14:42:19,293: Predictions: person: 0.62
+[INFO] 2019-02-26 14:42:20,025: Frame: 119, FPS: 1.36
+[INFO] 2019-02-26 14:42:20,027: Predictions: person: 0.76, person: 0.41
+[INFO] 2019-02-26 14:42:20,775: Frame: 120, FPS: 1.36
+[INFO] 2019-02-26 14:42:20,777: Predictions: person: 0.43, person: 0.32
+[INFO] 2019-02-26 14:42:21,501: Frame: 121, FPS: 1.36
+[INFO] 2019-02-26 14:42:21,503: Predictions: person: 0.75, person: 0.52
+[INFO] 2019-02-26 14:42:22,224: Frame: 122, FPS: 1.36
+[INFO] 2019-02-26 14:42:22,226: Predictions: person: 0.41
+[INFO] 2019-02-26 14:42:22,940: Frame: 123, FPS: 1.36
+[INFO] 2019-02-26 14:42:22,943: Predictions: person: 0.43
+[INFO] 2019-02-26 14:42:23,680: Frame: 124, FPS: 1.36
+[INFO] 2019-02-26 14:42:23,682: Predictions: person: 0.38
+[INFO] 2019-02-26 14:42:24,397: Frame: 125, FPS: 1.37
+[INFO] 2019-02-26 14:42:24,399: Predictions: person: 0.81, person: 0.43
+[INFO] 2019-02-26 14:42:25,092: Frame: 126, FPS: 1.37
+[INFO] 2019-02-26 14:42:25,094: Predictions: person: 0.81, person: 0.54
+[INFO] 2019-02-26 14:42:25,781: Frame: 127, FPS: 1.38
+[INFO] 2019-02-26 14:42:25,783: Predictions: person: 0.61
+[INFO] 2019-02-26 14:42:26,477: Frame: 128, FPS: 1.39
+[INFO] 2019-02-26 14:42:26,479: Predictions: person: 0.73
+[INFO] 2019-02-26 14:42:27,206: Frame: 129, FPS: 1.38
+[INFO] 2019-02-26 14:42:27,208: Predictions: person: 0.64
+[INFO] 2019-02-26 14:42:27,919: Frame: 130, FPS: 1.39
+[INFO] 2019-02-26 14:42:27,922: Predictions: person: 0.35
+[INFO] 2019-02-26 14:42:28,649: Frame: 131, FPS: 1.39
+[INFO] 2019-02-26 14:42:28,651: Predictions: person: 0.31
+[INFO] 2019-02-26 14:42:29,365: Frame: 132, FPS: 1.39
+[INFO] 2019-02-26 14:42:29,367: Predictions: person: 0.44
+[INFO] 2019-02-26 14:42:30,094: Frame: 133, FPS: 1.38
+[INFO] 2019-02-26 14:42:30,096: Predictions: bird: 0.32
+[INFO] 2019-02-26 14:42:30,818: Frame: 134, FPS: 1.38
+[INFO] 2019-02-26 14:42:30,821: Predictions: person: 0.53, person: 0.48
+[INFO] 2019-02-26 14:42:31,538: Frame: 135, FPS: 1.38
+[INFO] 2019-02-26 14:42:31,540: Predictions: chair: 0.32
+[INFO] 2019-02-26 14:42:32,263: Frame: 136, FPS: 1.38
+[INFO] 2019-02-26 14:42:32,265: Predictions: person: 0.55, chair: 0.45
+[INFO] 2019-02-26 14:42:33,005: Frame: 137, FPS: 1.38
+[INFO] 2019-02-26 14:42:33,007: Predictions: person: 0.32
+[INFO] 2019-02-26 14:42:33,746: Frame: 138, FPS: 1.38
+[INFO] 2019-02-26 14:42:33,749: Predictions: person: 0.32
+[INFO] 2019-02-26 14:42:34,474: Frame: 139, FPS: 1.38
+[INFO] 2019-02-26 14:42:35,188: Frame: 140, FPS: 1.38
+[INFO] 2019-02-26 14:42:35,907: Frame: 141, FPS: 1.38
+[INFO] 2019-02-26 14:42:36,613: Frame: 142, FPS: 1.38
+[INFO] 2019-02-26 14:42:36,615: Predictions: car: 0.63, car: 0.51, car: 0.51, car: 0.37, car: 0.32, car: 0.31, car: 0.30
+[INFO] 2019-02-26 14:42:37,337: Frame: 143, FPS: 1.38
+[INFO] 2019-02-26 14:42:37,339: Predictions: car: 0.69, car: 0.55, car: 0.54, car: 0.50, car: 0.48, car: 0.46, car: 0.35, car: 0.31, car: 0.30
+[INFO] 2019-02-26 14:42:38,052: Frame: 144, FPS: 1.39
+[INFO] 2019-02-26 14:42:38,054: Predictions: car: 0.72, car: 0.71, car: 0.46, car: 0.44, car: 0.44, car: 0.43, car: 0.39, car: 0.39, car: 0.32
+[INFO] 2019-02-26 14:42:38,785: Frame: 145, FPS: 1.38
+[INFO] 2019-02-26 14:42:38,788: Predictions: car: 0.73, car: 0.65, car: 0.65, car: 0.64, car: 0.58, car: 0.51, car: 0.43, car: 0.43, car: 0.40
+[INFO] 2019-02-26 14:42:39,495: Frame: 146, FPS: 1.39
+[INFO] 2019-02-26 14:42:39,497: Predictions: car: 0.72, car: 0.70, car: 0.68, person: 0.65, car: 0.63, car: 0.50, car: 0.50, car: 0.46, car: 0.33, truck: 0.32
+[INFO] 2019-02-26 14:42:40,203: Frame: 147, FPS: 1.39
+[INFO] 2019-02-26 14:42:40,205: Predictions: car: 0.71, car: 0.62, car: 0.61, car: 0.59, car: 0.56, car: 0.45, car: 0.36, car: 0.34
+[INFO] 2019-02-26 14:42:40,887: Frame: 148, FPS: 1.40
+[INFO] 2019-02-26 14:42:40,889: Predictions: person: 0.74, car: 0.63, car: 0.62, car: 0.57, car: 0.55, car: 0.55, car: 0.55, car: 0.52
+[INFO] 2019-02-26 14:42:41,572: Frame: 149, FPS: 1.40
+[INFO] 2019-02-26 14:42:41,574: Predictions: car: 0.67, car: 0.66, person: 0.66, car: 0.58, car: 0.58, car: 0.58, car: 0.47, car: 0.44, car: 0.35
+[INFO] 2019-02-26 14:42:42,249: Frame: 150, FPS: 1.41
+[INFO] 2019-02-26 14:42:42,251: Predictions: person: 0.69, car: 0.68, car: 0.63, car: 0.59, car: 0.53, car: 0.53, car: 0.49, car: 0.39
+[INFO] 2019-02-26 14:42:42,934: Frame: 151, FPS: 1.41
+[INFO] 2019-02-26 14:42:42,937: Predictions: person: 0.76, car: 0.68, car: 0.56, car: 0.56, car: 0.53, car: 0.50, car: 0.49, car: 0.33
+[INFO] 2019-02-26 14:42:43,618: Frame: 152, FPS: 1.42
+[INFO] 2019-02-26 14:42:43,620: Predictions: person: 0.78, car: 0.58, car: 0.56, car: 0.56, car: 0.54, car: 0.54, car: 0.43, car: 0.41
+[INFO] 2019-02-26 14:42:44,303: Frame: 153, FPS: 1.42
+[INFO] 2019-02-26 14:42:44,305: Predictions: person: 0.83, car: 0.73, car: 0.69, car: 0.67, car: 0.63, car: 0.46, car: 0.45, car: 0.36, truck: 0.35
+[INFO] 2019-02-26 14:42:44,988: Frame: 154, FPS: 1.43
+[INFO] 2019-02-26 14:42:44,990: Predictions: person: 0.80, car: 0.71, car: 0.69, car: 0.65, car: 0.62, car: 0.62, car: 0.53, truck: 0.37, truck: 0.34
+[INFO] 2019-02-26 14:42:45,666: Frame: 155, FPS: 1.43
+[INFO] 2019-02-26 14:42:45,668: Predictions: person: 0.85, car: 0.71, car: 0.68, car: 0.68, car: 0.64, car: 0.51, car: 0.49, car: 0.46, truck: 0.37, car: 0.31
+[INFO] 2019-02-26 14:42:46,345: Frame: 156, FPS: 1.44
+[INFO] 2019-02-26 14:42:46,347: Predictions: person: 0.87, car: 0.71, car: 0.70, car: 0.68, car: 0.68, car: 0.48, car: 0.47, car: 0.42, car: 0.39
+[INFO] 2019-02-26 14:42:47,027: Frame: 157, FPS: 1.44
+[INFO] 2019-02-26 14:42:47,029: Predictions: person: 0.80, car: 0.72, car: 0.67, car: 0.61, car: 0.61, car: 0.41, car: 0.39, car: 0.38, car: 0.32
+[INFO] 2019-02-26 14:42:47,696: Frame: 158, FPS: 1.44
+[INFO] 2019-02-26 14:42:47,699: Predictions: person: 0.82, car: 0.77, car: 0.74, car: 0.74, car: 0.72, car: 0.55, car: 0.48, car: 0.46, car: 0.45, car: 0.37
+[INFO] 2019-02-26 14:42:48,385: Frame: 159, FPS: 1.45
+[INFO] 2019-02-26 14:42:48,387: Predictions: person: 0.85, car: 0.76, car: 0.75, car: 0.69, car: 0.68, car: 0.57, car: 0.49, car: 0.44, truck: 0.39, car: 0.36
+[INFO] 2019-02-26 14:42:49,081: Frame: 160, FPS: 1.44
+[INFO] 2019-02-26 14:42:49,083: Predictions: person: 0.84, car: 0.66, car: 0.65, car: 0.61, car: 0.60, car: 0.50, car: 0.40, truck: 0.39, car: 0.35, truck: 0.34
+[INFO] 2019-02-26 14:42:49,768: Frame: 161, FPS: 1.45
+[INFO] 2019-02-26 14:42:49,771: Predictions: person: 0.84, car: 0.65, car: 0.60, car: 0.60, car: 0.55, car: 0.54, car: 0.42, car: 0.38, car: 0.36, truck: 0.31
+[INFO] 2019-02-26 14:42:50,475: Frame: 162, FPS: 1.44
+[INFO] 2019-02-26 14:42:50,478: Predictions: person: 0.82, car: 0.60, car: 0.59, car: 0.57, car: 0.53, car: 0.50, car: 0.50, car: 0.38, truck: 0.30
+[INFO] 2019-02-26 14:42:51,196: Frame: 163, FPS: 1.44
+[INFO] 2019-02-26 14:42:51,198: Predictions: person: 0.84, car: 0.64, car: 0.63, car: 0.57, car: 0.56, car: 0.50, car: 0.45, car: 0.42, car: 0.35, car: 0.34
+[INFO] 2019-02-26 14:42:51,916: Frame: 164, FPS: 1.43
+[INFO] 2019-02-26 14:42:51,919: Predictions: car: 0.73, car: 0.68, car: 0.65, car: 0.58, car: 0.57, person: 0.51, car: 0.43, car: 0.42, truck: 0.37
+[INFO] 2019-02-26 14:42:52,619: Frame: 165, FPS: 1.43
+[INFO] 2019-02-26 14:42:52,621: Predictions: car: 0.72, person: 0.69, car: 0.59, car: 0.57, car: 0.57, car: 0.49, car: 0.39, car: 0.33, car: 0.31
+[INFO] 2019-02-26 14:42:53,341: Frame: 166, FPS: 1.43
+[INFO] 2019-02-26 14:42:53,343: Predictions: car: 0.72, person: 0.68, car: 0.63, car: 0.61, car: 0.58, car: 0.54, car: 0.49, car: 0.39, car: 0.37, car: 0.33
+[INFO] 2019-02-26 14:42:54,068: Frame: 167, FPS: 1.42
+[INFO] 2019-02-26 14:42:54,070: Predictions: person: 0.71, car: 0.67, car: 0.66, car: 0.63, car: 0.62, car: 0.55, car: 0.50, car: 0.42, car: 0.37, car: 0.33
+[INFO] 2019-02-26 14:42:54,776: Frame: 168, FPS: 1.42
+[INFO] 2019-02-26 14:42:54,779: Predictions: person: 0.65, car: 0.64, car: 0.63, car: 0.61, car: 0.61, car: 0.55, car: 0.48, car: 0.44, car: 0.35
+[INFO] 2019-02-26 14:42:55,472: Frame: 169, FPS: 1.42
+[INFO] 2019-02-26 14:42:55,474: Predictions: person: 0.65, car: 0.64, car: 0.64, car: 0.59, car: 0.57, car: 0.57, car: 0.55, car: 0.48, car: 0.36, car: 0.33
+[INFO] 2019-02-26 14:42:56,165: Frame: 170, FPS: 1.42
+[INFO] 2019-02-26 14:42:56,168: Predictions: car: 0.68, car: 0.59, car: 0.55, car: 0.54, car: 0.49, car: 0.46, car: 0.42, car: 0.42, car: 0.35, person: 0.35
+[INFO] 2019-02-26 14:42:56,857: Frame: 171, FPS: 1.43
+[INFO] 2019-02-26 14:42:56,859: Predictions: car: 0.73, car: 0.64, car: 0.62, car: 0.61, car: 0.59, car: 0.50, car: 0.41, car: 0.39, person: 0.37, car: 0.34
+[INFO] 2019-02-26 14:42:57,548: Frame: 172, FPS: 1.43
+[INFO] 2019-02-26 14:42:57,550: Predictions: car: 0.66, car: 0.64, car: 0.60, car: 0.56, car: 0.51, car: 0.42, person: 0.38
+[INFO] 2019-02-26 14:42:58,229: Frame: 173, FPS: 1.43
+[INFO] 2019-02-26 14:42:58,231: Predictions: car: 0.69, car: 0.68, car: 0.66, car: 0.58, person: 0.57, car: 0.50, car: 0.48, car: 0.47
+[INFO] 2019-02-26 14:42:58,942: Frame: 174, FPS: 1.43
+[INFO] 2019-02-26 14:42:58,944: Predictions: car: 0.67, car: 0.67, car: 0.60, person: 0.58, car: 0.58, car: 0.54, car: 0.49, car: 0.41, car: 0.37
+[INFO] 2019-02-26 14:42:59,669: Frame: 175, FPS: 1.42
+[INFO] 2019-02-26 14:42:59,671: Predictions: car: 0.71, car: 0.67, person: 0.64, car: 0.58, car: 0.56, car: 0.55, car: 0.45, car: 0.33, car: 0.32
+[INFO] 2019-02-26 14:43:00,385: Frame: 176, FPS: 1.42
+[INFO] 2019-02-26 14:43:00,387: Predictions: car: 0.73, car: 0.68, car: 0.67, person: 0.62, car: 0.61, car: 0.49, car: 0.44, car: 0.40, truck: 0.37
+[INFO] 2019-02-26 14:43:01,119: Frame: 177, FPS: 1.42
+[INFO] 2019-02-26 14:43:01,121: Predictions: car: 0.74, car: 0.69, car: 0.69, car: 0.56, car: 0.50, car: 0.41, car: 0.41, car: 0.37, car: 0.32
+[INFO] 2019-02-26 14:43:01,785: Frame: 178, FPS: 1.42
+[INFO] 2019-02-26 14:43:01,787: Predictions: car: 0.68, car: 0.66, car: 0.65, car: 0.61, car: 0.55, car: 0.49, car: 0.37
+[INFO] 2019-02-26 14:43:02,475: Frame: 179, FPS: 1.43
+[INFO] 2019-02-26 14:43:02,477: Predictions: car: 0.77, car: 0.74, car: 0.68, car: 0.61, car: 0.58, car: 0.55, car: 0.55, car: 0.35, car: 0.32, truck: 0.30
+[INFO] 2019-02-26 14:43:03,213: Frame: 180, FPS: 1.42
+[INFO] 2019-02-26 14:43:03,216: Predictions: car: 0.73, car: 0.70, car: 0.69, car: 0.62, car: 0.52, car: 0.47, car: 0.46, car: 0.34, car: 0.31, car: 0.31
+[INFO] 2019-02-26 14:43:03,945: Frame: 181, FPS: 1.41
+[INFO] 2019-02-26 14:43:03,948: Predictions: car: 0.76, car: 0.71, car: 0.69, car: 0.68, car: 0.52, car: 0.49, car: 0.43, car: 0.43, truck: 0.35, truck: 0.33
+[INFO] 2019-02-26 14:43:04,703: Frame: 182, FPS: 1.40
+[INFO] 2019-02-26 14:43:04,705: Predictions: car: 0.74, car: 0.71, car: 0.69, car: 0.65, car: 0.48, car: 0.47, car: 0.41, car: 0.41, truck: 0.33, car: 0.30
+[INFO] 2019-02-26 14:43:05,430: Frame: 183, FPS: 1.40
+[INFO] 2019-02-26 14:43:05,433: Predictions: car: 0.72, car: 0.65, car: 0.55, car: 0.53, car: 0.49, car: 0.39, car: 0.39, car: 0.34, car: 0.34
+[INFO] 2019-02-26 14:43:06,160: Frame: 184, FPS: 1.40
+[INFO] 2019-02-26 14:43:06,162: Predictions: car: 0.75, car: 0.69, car: 0.63, car: 0.63, car: 0.57, chair: 0.46, car: 0.40, car: 0.38, car: 0.35, truck: 0.32
+[INFO] 2019-02-26 14:43:06,881: Frame: 185, FPS: 1.40
+[INFO] 2019-02-26 14:43:06,883: Predictions: car: 0.71, car: 0.71, car: 0.68, car: 0.64, car: 0.61, chair: 0.61, car: 0.48, car: 0.45, car: 0.41, truck: 0.31
+[INFO] 2019-02-26 14:43:07,596: Frame: 186, FPS: 1.40
+[INFO] 2019-02-26 14:43:07,598: Predictions: car: 0.69, car: 0.67, car: 0.65, car: 0.64, car: 0.53, car: 0.45, chair: 0.42, truck: 0.34, car: 0.31
+[INFO] 2019-02-26 14:43:08,320: Frame: 187, FPS: 1.40
+[INFO] 2019-02-26 14:43:08,322: Predictions: car: 0.72, car: 0.72, car: 0.67, car: 0.63, car: 0.61, car: 0.52, car: 0.47, car: 0.42, chair: 0.31, car: 0.31
+[INFO] 2019-02-26 14:43:09,028: Frame: 188, FPS: 1.40
+[INFO] 2019-02-26 14:43:09,030: Predictions: car: 0.65, car: 0.64, car: 0.62, car: 0.58, car: 0.54, car: 0.49, person: 0.41, car: 0.39, chair: 0.33, car: 0.33
+[INFO] 2019-02-26 14:43:09,744: Frame: 189, FPS: 1.40
+[INFO] 2019-02-26 14:43:09,746: Predictions: car: 0.70, car: 0.67, car: 0.65, car: 0.63, car: 0.60, car: 0.57, car: 0.57, car: 0.47, person: 0.41, car: 0.36
+[INFO] 2019-02-26 14:43:10,447: Frame: 190, FPS: 1.40
+[INFO] 2019-02-26 14:43:10,449: Predictions: car: 0.69, car: 0.59, car: 0.58, car: 0.55, car: 0.49, car: 0.44
+[INFO] 2019-02-26 14:43:11,169: Frame: 191, FPS: 1.40
+[INFO] 2019-02-26 14:43:11,171: Predictions: car: 0.57, car: 0.47
+[INFO] 2019-02-26 14:43:11,888: Frame: 192, FPS: 1.40
+[INFO] 2019-02-26 14:43:11,890: Predictions: car: 0.62, car: 0.57, car: 0.50, car: 0.40
+[INFO] 2019-02-26 14:43:12,617: Frame: 193, FPS: 1.39
+[INFO] 2019-02-26 14:43:12,619: Predictions: car: 0.70, car: 0.68, car: 0.62, car: 0.61, car: 0.53, car: 0.50, car: 0.43, car: 0.35
+[INFO] 2019-02-26 14:43:13,313: Frame: 194, FPS: 1.40
+[INFO] 2019-02-26 14:43:13,315: Predictions: car: 0.66, car: 0.66, car: 0.65, car: 0.61, car: 0.41, person: 0.39
+[INFO] 2019-02-26 14:43:14,009: Frame: 195, FPS: 1.40
+[INFO] 2019-02-26 14:43:14,011: Predictions: car: 0.41, person: 0.30
+[INFO] 2019-02-26 14:43:14,677: Frame: 196, FPS: 1.41
+[INFO] 2019-02-26 14:43:14,680: Predictions: person: 0.60, book: 0.50, person: 0.39
+[INFO] 2019-02-26 14:43:15,390: Frame: 197, FPS: 1.41
+[INFO] 2019-02-26 14:43:15,392: Predictions: person: 0.78, person: 0.49
+[INFO] 2019-02-26 14:43:16,103: Frame: 198, FPS: 1.41
+[INFO] 2019-02-26 14:43:16,106: Predictions: person: 0.76, cup: 0.43, person: 0.32, bed: 0.31
+[INFO] 2019-02-26 14:43:16,848: Frame: 199, FPS: 1.40
+[INFO] 2019-02-26 14:43:16,850: Predictions: person: 0.71, person: 0.44, laptop: 0.38
+[INFO] 2019-02-26 14:43:17,523: Frame: 200, FPS: 1.41
+[INFO] 2019-02-26 14:43:17,525: Predictions: person: 0.68
+[INFO] 2019-02-26 14:43:18,204: Frame: 201, FPS: 1.42
+[INFO] 2019-02-26 14:43:18,206: Predictions: person: 0.70, person: 0.55, person: 0.42, tvmonitor: 0.32
+[INFO] 2019-02-26 14:43:18,928: Frame: 202, FPS: 1.41
+[INFO] 2019-02-26 14:43:18,930: Predictions: person: 0.67, person: 0.42
+[INFO] 2019-02-26 14:43:19,628: Frame: 203, FPS: 1.42
+[INFO] 2019-02-26 14:43:19,630: Predictions: person: 0.70, laptop: 0.38
+[INFO] 2019-02-26 14:43:20,342: Frame: 204, FPS: 1.41
+[INFO] 2019-02-26 14:43:20,344: Predictions: person: 0.72, person: 0.40, tie: 0.39, laptop: 0.37, cup: 0.35, person: 0.30
+[INFO] 2019-02-26 14:43:21,066: Frame: 205, FPS: 1.41
+[INFO] 2019-02-26 14:43:21,068: Predictions: person: 0.76, laptop: 0.63, person: 0.37, person: 0.32
+[INFO] 2019-02-26 14:43:21,736: Frame: 206, FPS: 1.42
+[INFO] 2019-02-26 14:43:21,738: Predictions: person: 0.74, laptop: 0.61, person: 0.42, person: 0.41
+[INFO] 2019-02-26 14:43:22,434: Frame: 207, FPS: 1.42
+[INFO] 2019-02-26 14:43:22,436: Predictions: person: 0.74, laptop: 0.54, person: 0.45, person: 0.42, cup: 0.33
+[INFO] 2019-02-26 14:43:23,120: Frame: 208, FPS: 1.42
+[INFO] 2019-02-26 14:43:23,122: Predictions: person: 0.78, laptop: 0.53, person: 0.40
+[INFO] 2019-02-26 14:43:23,809: Frame: 209, FPS: 1.43
+[INFO] 2019-02-26 14:43:23,811: Predictions: person: 0.74, laptop: 0.58, person: 0.40, person: 0.38
+[INFO] 2019-02-26 14:43:24,495: Frame: 210, FPS: 1.43
+[INFO] 2019-02-26 14:43:24,497: Predictions: person: 0.75, laptop: 0.48, person: 0.44, person: 0.37
+[INFO] 2019-02-26 14:43:25,205: Frame: 211, FPS: 1.43
+[INFO] 2019-02-26 14:43:25,207: Predictions: person: 0.75, laptop: 0.60, person: 0.36, person: 0.36, person: 0.32
+[INFO] 2019-02-26 14:43:25,906: Frame: 212, FPS: 1.43
+[INFO] 2019-02-26 14:43:25,909: Predictions: person: 0.74, laptop: 0.60, person: 0.42, person: 0.35
+[INFO] 2019-02-26 14:43:26,630: Frame: 213, FPS: 1.42
+[INFO] 2019-02-26 14:43:26,632: Predictions: person: 0.79, laptop: 0.56, person: 0.46, person: 0.44
+[INFO] 2019-02-26 14:43:27,349: Frame: 214, FPS: 1.42
+[INFO] 2019-02-26 14:43:27,351: Predictions: person: 0.60, laptop: 0.59, person: 0.46, tie: 0.44, person: 0.39
+[INFO] 2019-02-26 14:43:28,055: Frame: 215, FPS: 1.42
+[INFO] 2019-02-26 14:43:28,058: Predictions: laptop: 0.60, person: 0.45, tie: 0.36, person: 0.31
+[INFO] 2019-02-26 14:43:28,745: Frame: 216, FPS: 1.42
+[INFO] 2019-02-26 14:43:28,747: Predictions: laptop: 0.58, person: 0.55, person: 0.40, tie: 0.34
+[INFO] 2019-02-26 14:43:29,434: Frame: 217, FPS: 1.43
+[INFO] 2019-02-26 14:43:29,436: Predictions: person: 0.75, tie: 0.68, person: 0.58, person: 0.55, laptop: 0.41, chair: 0.37, person: 0.33
+[INFO] 2019-02-26 14:43:30,123: Frame: 218, FPS: 1.43
+[INFO] 2019-02-26 14:43:30,125: Predictions: person: 0.72
+[INFO] 2019-02-26 14:43:30,827: Frame: 219, FPS: 1.43
+[INFO] 2019-02-26 14:43:30,829: Predictions: person: 0.70, knife: 0.44, person: 0.42, keyboard: 0.35, chair: 0.32
+[INFO] 2019-02-26 14:43:31,536: Frame: 220, FPS: 1.43
+[INFO] 2019-02-26 14:43:31,538: Predictions: person: 0.76, person: 0.47, cell phone: 0.36, tvmonitor: 0.30
+[INFO] 2019-02-26 14:43:32,248: Frame: 221, FPS: 1.42
+[INFO] 2019-02-26 14:43:32,251: Predictions: person: 0.50, person: 0.47, cell phone: 0.37
+[INFO] 2019-02-26 14:43:32,949: Frame: 222, FPS: 1.42
+[INFO] 2019-02-26 14:43:32,951: Predictions: cell phone: 0.52, person: 0.42, person: 0.40
+[INFO] 2019-02-26 14:43:33,664: Frame: 223, FPS: 1.42
+[INFO] 2019-02-26 14:43:33,666: Predictions: person: 0.53, cell phone: 0.46, person: 0.36
+[INFO] 2019-02-26 14:43:34,361: Frame: 224, FPS: 1.42
+[INFO] 2019-02-26 14:43:34,363: Predictions: person: 0.72, person: 0.68, cup: 0.62, laptop: 0.44, chair: 0.37, cell phone: 0.31
+[INFO] 2019-02-26 14:43:35,042: Frame: 225, FPS: 1.43
+[INFO] 2019-02-26 14:43:35,044: Predictions: person: 0.66, person: 0.63, laptop: 0.60, cup: 0.40, person: 0.31, laptop: 0.30
+[INFO] 2019-02-26 14:43:35,721: Frame: 226, FPS: 1.43
+[INFO] 2019-02-26 14:43:35,723: Predictions: person: 0.64, person: 0.63, person: 0.57, laptop: 0.51, cup: 0.50, bottle: 0.49, cell phone: 0.45, person: 0.42, person: 0.39, laptop: 0.33
+[INFO] 2019-02-26 14:43:36,393: Frame: 227, FPS: 1.44
+[INFO] 2019-02-26 14:43:36,395: Predictions: person: 0.84, person: 0.68, chair: 0.62, cup: 0.53, laptop: 0.52, person: 0.50, laptop: 0.45, person: 0.37, bottle: 0.35, person: 0.32
+[INFO] 2019-02-26 14:43:37,095: Frame: 228, FPS: 1.44
+[INFO] 2019-02-26 14:43:37,097: Predictions: person: 0.84, laptop: 0.69, person: 0.67, chair: 0.62, laptop: 0.49, person: 0.47, diningtable: 0.46, cup: 0.40, cake: 0.39
+[INFO] 2019-02-26 14:43:37,793: Frame: 229, FPS: 1.44
+[INFO] 2019-02-26 14:43:37,795: Predictions: person: 0.83, person: 0.64, laptop: 0.53, chair: 0.52, laptop: 0.49, person: 0.48, cake: 0.38, cup: 0.31
+[INFO] 2019-02-26 14:43:38,494: Frame: 230, FPS: 1.43
+[INFO] 2019-02-26 14:43:38,496: Predictions: person: 0.85, laptop: 0.61, person: 0.61, cup: 0.56, laptop: 0.48, person: 0.43, cake: 0.43, person: 0.43, person: 0.42
+[INFO] 2019-02-26 14:43:39,189: Frame: 231, FPS: 1.44
+[INFO] 2019-02-26 14:43:39,191: Predictions: laptop: 0.83, person: 0.64, person: 0.58, person: 0.53, diningtable: 0.51, cup: 0.49, laptop: 0.46, person: 0.38, cake: 0.32
+[INFO] 2019-02-26 14:43:39,855: Frame: 232, FPS: 1.44
+[INFO] 2019-02-26 14:43:39,857: Predictions: laptop: 0.78, person: 0.60, cup: 0.59, person: 0.56, laptop: 0.55, person: 0.42, chair: 0.33, diningtable: 0.32, person: 0.31
+[INFO] 2019-02-26 14:43:40,544: Frame: 233, FPS: 1.44
+[INFO] 2019-02-26 14:43:40,546: Predictions: laptop: 0.88, laptop: 0.63, person: 0.62, chair: 0.50, person: 0.43, person: 0.43, cake: 0.42, person: 0.41, diningtable: 0.39, person: 0.34
+[INFO] 2019-02-26 14:43:41,224: Frame: 234, FPS: 1.45
+[INFO] 2019-02-26 14:43:41,226: Predictions: laptop: 0.83, laptop: 0.72, person: 0.51, cake: 0.51, person: 0.50, person: 0.48, diningtable: 0.37, bottle: 0.36
+[INFO] 2019-02-26 14:43:41,901: Frame: 235, FPS: 1.45
+[INFO] 2019-02-26 14:43:41,904: Predictions: laptop: 0.74, person: 0.70, laptop: 0.69, person: 0.59, diningtable: 0.54, cake: 0.50, cup: 0.46, person: 0.45, tie: 0.39, person: 0.38
+[INFO] 2019-02-26 14:43:42,596: Frame: 236, FPS: 1.45
+[INFO] 2019-02-26 14:43:42,599: Predictions: laptop: 0.87, person: 0.76, laptop: 0.70, person: 0.59, person: 0.55, diningtable: 0.39
+[INFO] 2019-02-26 14:43:43,353: Frame: 237, FPS: 1.44
+[INFO] 2019-02-26 14:43:43,355: Predictions: laptop: 0.85, person: 0.71, laptop: 0.68, person: 0.65, person: 0.64, cup: 0.60, book: 0.31, person: 0.31, cake: 0.30
+[INFO] 2019-02-26 14:43:44,074: Frame: 238, FPS: 1.43
+[INFO] 2019-02-26 14:43:44,078: Predictions: laptop: 0.83, laptop: 0.72, person: 0.65, bottle: 0.57, person: 0.56, person: 0.52, diningtable: 0.47
+[INFO] 2019-02-26 14:43:44,844: Frame: 239, FPS: 1.42
+[INFO] 2019-02-26 14:43:44,846: Predictions: tvmonitor: 0.61, person: 0.59, person: 0.43
+[INFO] 2019-02-26 14:43:45,557: Frame: 240, FPS: 1.42
+[INFO] 2019-02-26 14:43:45,560: Predictions: person: 0.39, person: 0.31
+[INFO] 2019-02-26 14:43:46,333: Frame: 241, FPS: 1.40
+[INFO] 2019-02-26 14:43:47,041: Frame: 242, FPS: 1.40
+[INFO] 2019-02-26 14:43:47,043: Predictions: person: 0.84
+[INFO] 2019-02-26 14:43:47,808: Frame: 243, FPS: 1.39
+[INFO] 2019-02-26 14:43:47,811: Predictions: person: 0.73, car: 0.47
+[INFO] 2019-02-26 14:43:48,515: Frame: 244, FPS: 1.40
+[INFO] 2019-02-26 14:43:48,517: Predictions: car: 0.71, car: 0.61, car: 0.41
+[INFO] 2019-02-26 14:43:49,234: Frame: 245, FPS: 1.40
+[INFO] 2019-02-26 14:43:49,236: Predictions: car: 0.67, car: 0.65, car: 0.48, car: 0.40, car: 0.35
+[INFO] 2019-02-26 14:43:49,957: Frame: 246, FPS: 1.39
+[INFO] 2019-02-26 14:43:49,959: Predictions: car: 0.63, car: 0.58, car: 0.50, car: 0.39, car: 0.31
+[INFO] 2019-02-26 14:43:50,675: Frame: 247, FPS: 1.39
+[INFO] 2019-02-26 14:43:50,678: Predictions: car: 0.65, car: 0.56, car: 0.52, car: 0.42
+[INFO] 2019-02-26 14:43:51,368: Frame: 248, FPS: 1.40
+[INFO] 2019-02-26 14:43:51,370: Predictions: car: 0.72, car: 0.52, car: 0.42
+[INFO] 2019-02-26 14:43:52,118: Frame: 249, FPS: 1.39
+[INFO] 2019-02-26 14:43:52,120: Predictions: car: 0.65, car: 0.64, car: 0.43
+[INFO] 2019-02-26 14:43:52,788: Frame: 250, FPS: 1.40
+[INFO] 2019-02-26 14:43:52,790: Predictions: car: 0.65, car: 0.56, car: 0.53, car: 0.52, car: 0.41
+[INFO] 2019-02-26 14:43:53,500: Frame: 251, FPS: 1.40
+[INFO] 2019-02-26 14:43:53,502: Predictions: car: 0.65, car: 0.64, car: 0.57, car: 0.56, car: 0.49, car: 0.47, car: 0.38
+[INFO] 2019-02-26 14:43:54,212: Frame: 252, FPS: 1.40
+[INFO] 2019-02-26 14:43:54,214: Predictions: car: 0.74, car: 0.64, car: 0.61, car: 0.59, car: 0.53, car: 0.51, car: 0.49, car: 0.37
+[INFO] 2019-02-26 14:43:54,890: Frame: 253, FPS: 1.41
+[INFO] 2019-02-26 14:43:54,892: Predictions: car: 0.74, car: 0.74, car: 0.65, car: 0.64, car: 0.64, car: 0.61, car: 0.60, car: 0.57, car: 0.51, car: 0.49
+[INFO] 2019-02-26 14:43:55,567: Frame: 254, FPS: 1.42
+[INFO] 2019-02-26 14:43:55,570: Predictions: car: 0.70, car: 0.68, car: 0.64, car: 0.62, car: 0.60, car: 0.58, car: 0.58, car: 0.56, car: 0.55, truck: 0.52
+[INFO] 2019-02-26 14:43:56,251: Frame: 255, FPS: 1.42
+[INFO] 2019-02-26 14:43:56,253: Predictions: car: 0.72, car: 0.65, car: 0.64, car: 0.63, car: 0.61, car: 0.61, truck: 0.55, car: 0.54, car: 0.52, car: 0.47
+[INFO] 2019-02-26 14:43:56,924: Frame: 256, FPS: 1.43
+[INFO] 2019-02-26 14:43:56,926: Predictions: car: 0.74, car: 0.70, car: 0.69, car: 0.67, car: 0.65, car: 0.61, car: 0.60, car: 0.55, car: 0.51, car: 0.49
+[INFO] 2019-02-26 14:43:57,608: Frame: 257, FPS: 1.43
+[INFO] 2019-02-26 14:43:57,610: Predictions: car: 0.73, car: 0.64, car: 0.64, car: 0.58, car: 0.54, car: 0.49, car: 0.47, truck: 0.44, car: 0.43, car: 0.43
+[INFO] 2019-02-26 14:43:58,304: Frame: 258, FPS: 1.43
+[INFO] 2019-02-26 14:43:58,306: Predictions: car: 0.67, car: 0.64, car: 0.63, car: 0.62, car: 0.59, car: 0.58, car: 0.48, car: 0.47, car: 0.47, car: 0.44
+[INFO] 2019-02-26 14:43:59,012: Frame: 259, FPS: 1.43
+[INFO] 2019-02-26 14:43:59,014: Predictions: car: 0.71, car: 0.58, car: 0.57, car: 0.54, car: 0.54, truck: 0.52, car: 0.48, car: 0.47, car: 0.41, truck: 0.37
+[INFO] 2019-02-26 14:43:59,693: Frame: 260, FPS: 1.43
+[INFO] 2019-02-26 14:43:59,695: Predictions: car: 0.72, car: 0.62, car: 0.62, car: 0.60, car: 0.59, car: 0.55, truck: 0.51, car: 0.43, car: 0.39, car: 0.37
+[INFO] 2019-02-26 14:44:00,374: Frame: 261, FPS: 1.44
+[INFO] 2019-02-26 14:44:00,377: Predictions: car: 0.78, car: 0.69, car: 0.64, truck: 0.59, car: 0.58, car: 0.58, car: 0.56, car: 0.52, car: 0.51, car: 0.49
+[INFO] 2019-02-26 14:44:01,062: Frame: 262, FPS: 1.44
+[INFO] 2019-02-26 14:44:01,065: Predictions: car: 0.73, car: 0.72, car: 0.68, car: 0.67, car: 0.66, truck: 0.59, car: 0.56, car: 0.56, car: 0.52, car: 0.51
+[INFO] 2019-02-26 14:44:01,790: Frame: 263, FPS: 1.43
+[INFO] 2019-02-26 14:44:01,792: Predictions: car: 0.79, car: 0.75, car: 0.72, car: 0.69, car: 0.67, car: 0.67, car: 0.66, car: 0.57, car: 0.56, car: 0.56
+[INFO] 2019-02-26 14:44:02,475: Frame: 264, FPS: 1.43
+[INFO] 2019-02-26 14:44:02,477: Predictions: car: 0.77, car: 0.74, car: 0.72, car: 0.71, car: 0.71, car: 0.67, car: 0.66, car: 0.59, car: 0.59, car: 0.53
+[INFO] 2019-02-26 14:44:03,175: Frame: 265, FPS: 1.43
+[INFO] 2019-02-26 14:44:03,177: Predictions: car: 0.74, car: 0.73, car: 0.66, car: 0.63, car: 0.61, car: 0.57, car: 0.57, car: 0.52, car: 0.50, car: 0.50
+[INFO] 2019-02-26 14:44:03,856: Frame: 266, FPS: 1.44
+[INFO] 2019-02-26 14:44:03,858: Predictions: car: 0.71, car: 0.69, car: 0.67, car: 0.67, car: 0.67, car: 0.65, truck: 0.60, car: 0.60, car: 0.59, car: 0.59
+[INFO] 2019-02-26 14:44:04,538: Frame: 267, FPS: 1.44
+[INFO] 2019-02-26 14:44:04,540: Predictions: car: 0.77, car: 0.74, car: 0.70, car: 0.69, car: 0.68, car: 0.66, car: 0.59, car: 0.57, truck: 0.56, car: 0.54
+[INFO] 2019-02-26 14:44:05,351: Frame: 268, FPS: 1.42
+[INFO] 2019-02-26 14:44:05,353: Predictions: car: 0.82, car: 0.78, car: 0.73, car: 0.72, car: 0.68, car: 0.68, car: 0.58, truck: 0.50, car: 0.50, car: 0.48
+[INFO] 2019-02-26 14:44:06,032: Frame: 269, FPS: 1.42
+[INFO] 2019-02-26 14:44:06,034: Predictions: car: 0.77, car: 0.75, car: 0.75, car: 0.74, car: 0.71, car: 0.70, car: 0.59, car: 0.57, car: 0.56, car: 0.56
+[INFO] 2019-02-26 14:44:06,719: Frame: 270, FPS: 1.43
+[INFO] 2019-02-26 14:44:06,721: Predictions: car: 0.81, car: 0.74, car: 0.71, car: 0.67, car: 0.66, car: 0.61, car: 0.59, car: 0.58, truck: 0.55, car: 0.51
+[INFO] 2019-02-26 14:44:07,411: Frame: 271, FPS: 1.43
+[INFO] 2019-02-26 14:44:07,413: Predictions: car: 0.75, car: 0.73, car: 0.71, car: 0.71, car: 0.70, car: 0.69, car: 0.64, truck: 0.61, car: 0.55, car: 0.53
+[INFO] 2019-02-26 14:44:08,091: Frame: 272, FPS: 1.43
+[INFO] 2019-02-26 14:44:08,093: Predictions: car: 0.81, car: 0.75, car: 0.75, car: 0.74, car: 0.72, car: 0.68, car: 0.61, car: 0.59, car: 0.57, car: 0.56
+[INFO] 2019-02-26 14:44:08,790: Frame: 273, FPS: 1.43
+[INFO] 2019-02-26 14:44:08,793: Predictions: car: 0.79, car: 0.73, car: 0.72, car: 0.67, car: 0.66, car: 0.64, car: 0.63, car: 0.58, car: 0.57, car: 0.54
+[INFO] 2019-02-26 14:44:09,499: Frame: 274, FPS: 1.43
+[INFO] 2019-02-26 14:44:09,501: Predictions: car: 0.72, car: 0.69, car: 0.69, car: 0.68, car: 0.68, car: 0.66, car: 0.59, car: 0.58, car: 0.56, truck: 0.55
+[INFO] 2019-02-26 14:44:10,185: Frame: 275, FPS: 1.43
+[INFO] 2019-02-26 14:44:10,188: Predictions: person: 0.46, bus: 0.32
+[INFO] 2019-02-26 14:44:10,866: Frame: 276, FPS: 1.44
+[INFO] 2019-02-26 14:44:11,555: Frame: 277, FPS: 1.44
+[INFO] 2019-02-26 14:44:12,259: Frame: 278, FPS: 1.44
+[INFO] 2019-02-26 14:44:12,261: Predictions: person: 0.31
+[INFO] 2019-02-26 14:44:12,932: Frame: 279, FPS: 1.44
+[INFO] 2019-02-26 14:44:13,615: Frame: 280, FPS: 1.44
+[INFO] 2019-02-26 14:44:14,294: Frame: 281, FPS: 1.45
+[INFO] 2019-02-26 14:44:14,297: Predictions: car: 0.44, car: 0.31, car: 0.31
+[INFO] 2019-02-26 14:44:14,964: Frame: 282, FPS: 1.45
+[INFO] 2019-02-26 14:44:14,967: Predictions: car: 0.31
+[INFO] 2019-02-26 14:44:15,642: Frame: 283, FPS: 1.45
+[INFO] 2019-02-26 14:44:15,644: Predictions: car: 0.45
+[INFO] 2019-02-26 14:44:16,320: Frame: 284, FPS: 1.46
+[INFO] 2019-02-26 14:44:16,323: Predictions: car: 0.43
+[INFO] 2019-02-26 14:44:16,990: Frame: 285, FPS: 1.46
+[INFO] 2019-02-26 14:44:16,992: Predictions: truck: 0.37
+[INFO] 2019-02-26 14:44:17,687: Frame: 286, FPS: 1.46
+[INFO] 2019-02-26 14:44:18,375: Frame: 287, FPS: 1.46
+[INFO] 2019-02-26 14:44:18,377: Predictions: car: 0.73, car: 0.72, car: 0.69, car: 0.66, car: 0.61, car: 0.38, car: 0.31
+[INFO] 2019-02-26 14:44:19,053: Frame: 288, FPS: 1.46
+[INFO] 2019-02-26 14:44:19,055: Predictions: car: 0.79, car: 0.64, car: 0.61, car: 0.53, car: 0.49, car: 0.39
+[INFO] 2019-02-26 14:44:19,731: Frame: 289, FPS: 1.46
+[INFO] 2019-02-26 14:44:19,733: Predictions: car: 0.76, car: 0.70, car: 0.68, car: 0.67, car: 0.65, truck: 0.59, car: 0.58, truck: 0.57, car: 0.50, car: 0.49
+[INFO] 2019-02-26 14:44:20,411: Frame: 290, FPS: 1.46
+[INFO] 2019-02-26 14:44:20,413: Predictions: car: 0.79, car: 0.78, car: 0.77, car: 0.73, car: 0.68, truck: 0.66, car: 0.66, car: 0.51, car: 0.50, truck: 0.44
+[INFO] 2019-02-26 14:44:21,096: Frame: 291, FPS: 1.46
+[INFO] 2019-02-26 14:44:21,098: Predictions: car: 0.78, car: 0.78, car: 0.75, car: 0.70, car: 0.68, car: 0.67, car: 0.53, car: 0.48, car: 0.45, truck: 0.41
+[INFO] 2019-02-26 14:44:21,772: Frame: 292, FPS: 1.46
+[INFO] 2019-02-26 14:44:21,774: Predictions: car: 0.83, car: 0.78, car: 0.72, car: 0.72, car: 0.68, car: 0.64, truck: 0.57, car: 0.57, car: 0.57, car: 0.56
+[INFO] 2019-02-26 14:44:22,455: Frame: 293, FPS: 1.46
+[INFO] 2019-02-26 14:44:22,457: Predictions: car: 0.74, car: 0.72, car: 0.72, car: 0.70, car: 0.68, truck: 0.64, truck: 0.59, car: 0.59, car: 0.57, car: 0.56
+[INFO] 2019-02-26 14:44:23,125: Frame: 294, FPS: 1.47
+[INFO] 2019-02-26 14:44:23,127: Predictions: car: 0.84, car: 0.72, car: 0.72, car: 0.72, car: 0.69, car: 0.67, car: 0.63, car: 0.57, car: 0.53, truck: 0.53
+[INFO] 2019-02-26 14:44:23,806: Frame: 295, FPS: 1.47
+[INFO] 2019-02-26 14:44:23,808: Predictions: car: 0.86, car: 0.78, car: 0.73, car: 0.66, car: 0.64, car: 0.62, car: 0.58, car: 0.57, car: 0.56, car: 0.55
+[INFO] 2019-02-26 14:44:24,497: Frame: 296, FPS: 1.46
+[INFO] 2019-02-26 14:44:24,499: Predictions: car: 0.79, car: 0.78, car: 0.72, car: 0.71, car: 0.71, car: 0.67, car: 0.65, truck: 0.63, car: 0.61, car: 0.61
+[INFO] 2019-02-26 14:44:25,185: Frame: 297, FPS: 1.46
+[INFO] 2019-02-26 14:44:25,187: Predictions: car: 0.85, car: 0.75, car: 0.75, car: 0.73, car: 0.70, car: 0.70, truck: 0.68, car: 0.67, car: 0.66, car: 0.60
+[INFO] 2019-02-26 14:44:25,859: Frame: 298, FPS: 1.47
+[INFO] 2019-02-26 14:44:25,861: Predictions: car: 0.85, car: 0.78, car: 0.76, car: 0.76, car: 0.72, car: 0.70, car: 0.68, truck: 0.66, car: 0.65, car: 0.61
+[INFO] 2019-02-26 14:44:26,544: Frame: 299, FPS: 1.46
+[INFO] 2019-02-26 14:44:26,545: Predictions: car: 0.84, car: 0.81, car: 0.78, car: 0.72, car: 0.71, car: 0.70, car: 0.67, car: 0.59, car: 0.58, car: 0.57
+[INFO] 2019-02-26 14:44:27,225: Frame: 300, FPS: 1.47
+[INFO] 2019-02-26 14:44:27,228: Predictions: car: 0.83, car: 0.78, car: 0.78, car: 0.74, car: 0.69, car: 0.68, car: 0.66, car: 0.63, truck: 0.54, car: 0.54
+[INFO] 2019-02-26 14:44:27,914: Frame: 301, FPS: 1.46
+[INFO] 2019-02-26 14:44:27,916: Predictions: car: 0.85, car: 0.81, car: 0.79, car: 0.72, car: 0.70, car: 0.70, car: 0.65, car: 0.64, truck: 0.59, car: 0.57
+[INFO] 2019-02-26 14:44:28,601: Frame: 302, FPS: 1.46
+[INFO] 2019-02-26 14:44:28,603: Predictions: car: 0.82, car: 0.80, car: 0.77, car: 0.74, car: 0.72, car: 0.68, car: 0.65, car: 0.57, car: 0.54, car: 0.52
+[INFO] 2019-02-26 14:44:29,285: Frame: 303, FPS: 1.46
+[INFO] 2019-02-26 14:44:29,287: Predictions: car: 0.82, car: 0.80, car: 0.76, car: 0.71, car: 0.70, car: 0.69, car: 0.66, car: 0.66, car: 0.59, car: 0.57
+[INFO] 2019-02-26 14:44:29,954: Frame: 304, FPS: 1.47
+[INFO] 2019-02-26 14:44:29,956: Predictions: car: 0.83, car: 0.78, car: 0.78, car: 0.70, car: 0.68, truck: 0.66, car: 0.66, car: 0.65, car: 0.62, car: 0.61
+[INFO] 2019-02-26 14:44:30,637: Frame: 305, FPS: 1.47
+[INFO] 2019-02-26 14:44:30,639: Predictions: car: 0.80, car: 0.78, car: 0.76, car: 0.74, car: 0.73, car: 0.71, car: 0.71, car: 0.67, car: 0.67, car: 0.64
+[INFO] 2019-02-26 14:44:31,317: Frame: 306, FPS: 1.47
+[INFO] 2019-02-26 14:44:31,319: Predictions: car: 0.83, car: 0.82, car: 0.79, car: 0.71, car: 0.70, car: 0.68, car: 0.65, car: 0.64, car: 0.63, truck: 0.62
+[INFO] 2019-02-26 14:44:32,001: Frame: 307, FPS: 1.47
+[INFO] 2019-02-26 14:44:32,003: Predictions: car: 0.81, car: 0.80, car: 0.78, car: 0.75, car: 0.67, car: 0.66, car: 0.65, car: 0.65, car: 0.62, car: 0.61
+[INFO] 2019-02-26 14:44:32,732: Frame: 308, FPS: 1.46
+[INFO] 2019-02-26 14:44:32,734: Predictions: car: 0.77, car: 0.76, car: 0.74, car: 0.72, car: 0.67, car: 0.67, car: 0.67, car: 0.66, car: 0.64, truck: 0.61
+[INFO] 2019-02-26 14:44:33,430: Frame: 309, FPS: 1.45
+[INFO] 2019-02-26 14:44:33,433: Predictions: car: 0.81, car: 0.75, car: 0.74, car: 0.73, car: 0.72, car: 0.72, car: 0.68, car: 0.65, car: 0.61, car: 0.52
+[INFO] 2019-02-26 14:44:34,112: Frame: 310, FPS: 1.46
+[INFO] 2019-02-26 14:44:34,114: Predictions: car: 0.82, car: 0.82, car: 0.74, car: 0.73, car: 0.67, car: 0.66, car: 0.64, car: 0.63, car: 0.62, truck: 0.61
+[INFO] 2019-02-26 14:44:34,789: Frame: 311, FPS: 1.46
+[INFO] 2019-02-26 14:44:34,791: Predictions: car: 0.79, car: 0.78, car: 0.76, car: 0.73, car: 0.71, car: 0.69, car: 0.67, car: 0.64, car: 0.61, car: 0.54
+[INFO] 2019-02-26 14:44:35,479: Frame: 312, FPS: 1.46
+[INFO] 2019-02-26 14:44:35,481: Predictions: car: 0.81, car: 0.73, car: 0.71, car: 0.68, car: 0.66, car: 0.65, car: 0.65, car: 0.63, truck: 0.62, car: 0.61
+[INFO] 2019-02-26 14:44:36,163: Frame: 313, FPS: 1.46
+[INFO] 2019-02-26 14:44:36,166: Predictions: car: 0.78, car: 0.78, car: 0.73, car: 0.72, car: 0.70, car: 0.70, car: 0.69, car: 0.67, car: 0.63, car: 0.63
+[INFO] 2019-02-26 14:44:36,841: Frame: 314, FPS: 1.46
+[INFO] 2019-02-26 14:44:36,844: Predictions: car: 0.76, car: 0.76, car: 0.75, car: 0.74, car: 0.72, car: 0.70, car: 0.68, car: 0.66, car: 0.64, truck: 0.63
+[INFO] 2019-02-26 14:44:37,527: Frame: 315, FPS: 1.46
+[INFO] 2019-02-26 14:44:37,529: Predictions: car: 0.77, car: 0.76, car: 0.75, car: 0.74, car: 0.73, car: 0.71, car: 0.70, car: 0.69, car: 0.67, car: 0.62
+[INFO] 2019-02-26 14:44:38,207: Frame: 316, FPS: 1.46
+[INFO] 2019-02-26 14:44:38,209: Predictions: car: 0.80, car: 0.79, car: 0.77, car: 0.76, car: 0.72, car: 0.71, car: 0.71, car: 0.68, car: 0.62, truck: 0.62
+[INFO] 2019-02-26 14:44:38,891: Frame: 317, FPS: 1.46
+[INFO] 2019-02-26 14:44:38,893: Predictions: car: 0.77, car: 0.75, car: 0.74, car: 0.73, car: 0.72, car: 0.71, car: 0.68, car: 0.66, car: 0.66, truck: 0.59
+[INFO] 2019-02-26 14:44:39,580: Frame: 318, FPS: 1.46
+[INFO] 2019-02-26 14:44:39,582: Predictions: car: 0.79, car: 0.78, car: 0.78, car: 0.77, car: 0.72, car: 0.70, car: 0.70, car: 0.69, car: 0.65, truck: 0.63
+[INFO] 2019-02-26 14:44:40,263: Frame: 319, FPS: 1.46
+[INFO] 2019-02-26 14:44:40,265: Predictions: car: 0.78, car: 0.74, car: 0.74, car: 0.73, car: 0.72, car: 0.72, car: 0.66, truck: 0.65, car: 0.64, car: 0.64
+[INFO] 2019-02-26 14:44:40,942: Frame: 320, FPS: 1.46
+[INFO] 2019-02-26 14:44:40,944: Predictions: car: 0.81, car: 0.76, car: 0.74, car: 0.72, car: 0.70, car: 0.69, car: 0.67, car: 0.66, car: 0.66, truck: 0.59
+[INFO] 2019-02-26 14:44:41,625: Frame: 321, FPS: 1.46
+[INFO] 2019-02-26 14:44:41,627: Predictions: car: 0.85, car: 0.81, car: 0.79, car: 0.78, car: 0.75, car: 0.69, car: 0.65, car: 0.65, car: 0.63, truck: 0.60
+[INFO] 2019-02-26 14:44:42,315: Frame: 322, FPS: 1.46
+[INFO] 2019-02-26 14:44:42,317: Predictions: car: 0.80, car: 0.77, car: 0.76, car: 0.75, car: 0.74, car: 0.71, car: 0.66, car: 0.65, car: 0.64, car: 0.64
+[INFO] 2019-02-26 14:44:42,999: Frame: 323, FPS: 1.46
+[INFO] 2019-02-26 14:44:43,002: Predictions: car: 0.78, car: 0.78, car: 0.76, car: 0.70, car: 0.68, car: 0.67, car: 0.65, car: 0.64, car: 0.62, car: 0.55
+[INFO] 2019-02-26 14:44:43,682: Frame: 324, FPS: 1.46
+[INFO] 2019-02-26 14:44:43,684: Predictions: car: 0.77, car: 0.77, car: 0.72, car: 0.72, car: 0.68, car: 0.68, car: 0.68, car: 0.64, car: 0.53, car: 0.51
+[INFO] 2019-02-26 14:44:44,374: Frame: 325, FPS: 1.46
+[INFO] 2019-02-26 14:44:44,376: Predictions: car: 0.75, car: 0.74, car: 0.73, car: 0.70, car: 0.70, car: 0.66, car: 0.62, truck: 0.55, truck: 0.54, car: 0.53
+[INFO] 2019-02-26 14:44:45,070: Frame: 326, FPS: 1.46
+[INFO] 2019-02-26 14:44:45,072: Predictions: car: 0.75, car: 0.74, car: 0.72, car: 0.72, car: 0.68, car: 0.65, car: 0.65, car: 0.60, car: 0.52, truck: 0.52
+[INFO] 2019-02-26 14:44:45,797: Frame: 327, FPS: 1.45
+[INFO] 2019-02-26 14:44:45,800: Predictions: car: 0.80, car: 0.79, car: 0.78, car: 0.76, car: 0.71, car: 0.65, car: 0.64, car: 0.61, truck: 0.59, car: 0.58
+[INFO] 2019-02-26 14:44:46,521: Frame: 328, FPS: 1.44
+[INFO] 2019-02-26 14:44:46,523: Predictions: car: 0.77, car: 0.74, car: 0.72, car: 0.71, car: 0.67, car: 0.66, car: 0.60, car: 0.59, truck: 0.56, car: 0.54
+[INFO] 2019-02-26 14:44:47,251: Frame: 329, FPS: 1.43
+[INFO] 2019-02-26 14:44:47,253: Predictions: car: 0.71, car: 0.71, car: 0.70, car: 0.68, car: 0.66, car: 0.64, car: 0.62, truck: 0.62, car: 0.60, truck: 0.57
+[INFO] 2019-02-26 14:44:47,928: Frame: 330, FPS: 1.44
+[INFO] 2019-02-26 14:44:47,930: Predictions: car: 0.78, car: 0.74, car: 0.70, car: 0.69, car: 0.69, car: 0.68, truck: 0.63, car: 0.61, car: 0.58, car: 0.55
+[INFO] 2019-02-26 14:44:48,619: Frame: 331, FPS: 1.44
+[INFO] 2019-02-26 14:44:48,621: Predictions: car: 0.80, car: 0.77, car: 0.73, car: 0.69, car: 0.69, car: 0.68, car: 0.64, car: 0.62, truck: 0.61, car: 0.57
+[INFO] 2019-02-26 14:44:49,326: Frame: 332, FPS: 1.44
+[INFO] 2019-02-26 14:44:49,329: Predictions: car: 0.76, car: 0.75, car: 0.73, car: 0.71, car: 0.71, truck: 0.69, car: 0.69, car: 0.65, car: 0.63, car: 0.61
+[INFO] 2019-02-26 14:44:50,063: Frame: 333, FPS: 1.43
+[INFO] 2019-02-26 14:44:50,065: Predictions: car: 0.80, car: 0.79, car: 0.77, car: 0.76, car: 0.75, car: 0.73, car: 0.68, car: 0.67, car: 0.59, car: 0.59
+[INFO] 2019-02-26 14:44:50,762: Frame: 334, FPS: 1.43
+[INFO] 2019-02-26 14:44:50,764: Predictions: car: 0.83, car: 0.76, car: 0.75, car: 0.73, car: 0.72, car: 0.72, car: 0.68, car: 0.67, car: 0.67, car: 0.64
+[INFO] 2019-02-26 14:44:51,465: Frame: 335, FPS: 1.43
+[INFO] 2019-02-26 14:44:51,467: Predictions: car: 0.81, car: 0.80, car: 0.78, car: 0.75, car: 0.73, car: 0.68, car: 0.66, car: 0.59, truck: 0.56, car: 0.55
+[INFO] 2019-02-26 14:44:52,159: Frame: 336, FPS: 1.43
+[INFO] 2019-02-26 14:44:52,161: Predictions: car: 0.77, car: 0.76, car: 0.74, car: 0.74, car: 0.69, car: 0.68, car: 0.65, car: 0.61, car: 0.56, car: 0.53
+[INFO] 2019-02-26 14:44:52,892: Frame: 337, FPS: 1.42
+[INFO] 2019-02-26 14:44:52,894: Predictions: car: 0.77, car: 0.74, car: 0.71, car: 0.61, car: 0.60, car: 0.59, car: 0.55, car: 0.53, car: 0.49, car: 0.42
+[INFO] 2019-02-26 14:44:53,580: Frame: 338, FPS: 1.43
+[INFO] 2019-02-26 14:44:53,582: Predictions: car: 0.79, car: 0.72, car: 0.70, car: 0.65, car: 0.65, car: 0.62, car: 0.61, truck: 0.49, car: 0.47, truck: 0.43
+[INFO] 2019-02-26 14:44:54,373: Frame: 339, FPS: 1.41
+[INFO] 2019-02-26 14:44:54,375: Predictions: car: 0.85, car: 0.84, car: 0.79, car: 0.78, car: 0.73, car: 0.73, car: 0.64, car: 0.62, car: 0.58, car: 0.56
+[INFO] 2019-02-26 14:44:55,101: Frame: 340, FPS: 1.41
+[INFO] 2019-02-26 14:44:55,104: Predictions: car: 0.83, car: 0.81, car: 0.77, car: 0.74, car: 0.72, car: 0.70, car: 0.68, car: 0.66, car: 0.62, car: 0.51
+[INFO] 2019-02-26 14:44:55,845: Frame: 341, FPS: 1.40
+[INFO] 2019-02-26 14:44:55,847: Predictions: car: 0.86, car: 0.84, car: 0.75, car: 0.74, car: 0.70, car: 0.66, car: 0.57, car: 0.55, car: 0.52, car: 0.49
+[INFO] 2019-02-26 14:44:56,567: Frame: 342, FPS: 1.40
+[INFO] 2019-02-26 14:44:56,569: Predictions: car: 0.77, car: 0.75, car: 0.75, car: 0.74, car: 0.73, car: 0.61, car: 0.60, truck: 0.60, car: 0.56, car: 0.54
+[INFO] 2019-02-26 14:44:57,261: Frame: 343, FPS: 1.40
+[INFO] 2019-02-26 14:44:57,263: Predictions: car: 0.83, car: 0.77, car: 0.72, car: 0.70, car: 0.68, car: 0.66, car: 0.63, car: 0.62, car: 0.59, truck: 0.52
+[INFO] 2019-02-26 14:44:58,000: Frame: 344, FPS: 1.40
+[INFO] 2019-02-26 14:44:58,002: Predictions: car: 0.82, car: 0.82, car: 0.70, car: 0.65, car: 0.64, car: 0.63, car: 0.62, truck: 0.61, bottle: 0.51, car: 0.50
+[INFO] 2019-02-26 14:44:58,740: Frame: 345, FPS: 1.39
+[INFO] 2019-02-26 14:44:58,741: Predictions: car: 0.84, car: 0.81, car: 0.77, car: 0.72, car: 0.70, car: 0.69, car: 0.67, car: 0.62, car: 0.58, truck: 0.54
+[INFO] 2019-02-26 14:44:59,448: Frame: 346, FPS: 1.40
+[INFO] 2019-02-26 14:44:59,450: Predictions: car: 0.78, car: 0.76, car: 0.75, car: 0.72, car: 0.70, car: 0.68, car: 0.66, car: 0.62, car: 0.56, car: 0.52
+[INFO] 2019-02-26 14:45:00,221: Frame: 347, FPS: 1.38
+[INFO] 2019-02-26 14:45:00,222: Predictions: car: 0.85, car: 0.76, car: 0.76, car: 0.76, car: 0.70, car: 0.69, car: 0.68, truck: 0.67, car: 0.66, car: 0.61
+[INFO] 2019-02-26 14:45:00,927: Frame: 348, FPS: 1.39
+[INFO] 2019-02-26 14:45:00,930: Predictions: car: 0.84, car: 0.79, car: 0.73, car: 0.72, car: 0.70, car: 0.70, truck: 0.66, car: 0.63, car: 0.60, car: 0.57
+[INFO] 2019-02-26 14:45:01,630: Frame: 349, FPS: 1.39
+[INFO] 2019-02-26 14:45:01,632: Predictions: car: 0.78, car: 0.73, car: 0.72, car: 0.69, car: 0.68, car: 0.58, car: 0.57, car: 0.56, truck: 0.52, car: 0.51
+[INFO] 2019-02-26 14:45:02,332: Frame: 350, FPS: 1.39
+[INFO] 2019-02-26 14:45:02,334: Predictions: car: 0.75, car: 0.69, car: 0.67, car: 0.67, car: 0.64, car: 0.56, car: 0.56, car: 0.55, car: 0.52, car: 0.48
+[INFO] 2019-02-26 14:45:03,035: Frame: 351, FPS: 1.40
+[INFO] 2019-02-26 14:45:03,037: Predictions: car: 0.79, car: 0.78, car: 0.78, car: 0.73, car: 0.73, car: 0.67, car: 0.64, car: 0.62, car: 0.54, truck: 0.54
+[INFO] 2019-02-26 14:45:03,743: Frame: 352, FPS: 1.40
+[INFO] 2019-02-26 14:45:03,745: Predictions: car: 0.75, car: 0.75, car: 0.74, car: 0.70, car: 0.64, car: 0.63, car: 0.62, car: 0.55, car: 0.50, truck: 0.46
+[INFO] 2019-02-26 14:45:04,493: Frame: 353, FPS: 1.39
+[INFO] 2019-02-26 14:45:04,494: Predictions: bus: 0.47, car: 0.44, car: 0.32
